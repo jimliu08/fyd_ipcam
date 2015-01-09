@@ -1,0 +1,1 @@
+cmd_libs/H264Enc/lib/libh264enc.so := rm -f libs/H264Enc/lib/libh264enc.so; ln -s libh264enc.so.5.2.0.0 libs/H264Enc/lib/libh264enc.so; (echo libs/H264Enc/lib/libh264enc.so.5.2.0.0;) > .tmp_versions/H264Enc

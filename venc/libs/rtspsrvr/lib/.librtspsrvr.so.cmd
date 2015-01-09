@@ -1,0 +1,1 @@
+cmd_libs/rtspsrvr/lib/librtspsrvr.so := rm -f libs/rtspsrvr/lib/librtspsrvr.so; ln -s librtspsrvr.so.8.0.0.2 libs/rtspsrvr/lib/librtspsrvr.so; (echo libs/rtspsrvr/lib/librtspsrvr.so.8.0.0.2;) > .tmp_versions/rtspsrvr

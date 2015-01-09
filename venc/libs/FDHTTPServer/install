@@ -1,0 +1,20 @@
+#!/bin/bash
+# This script will install expat. 
+PATH=/usr/bin:/bin:$PATH
+APP_NAME=fdhttpserver
+# check if you have the proper objdump
+
+LIB_NAME=fdhttpserver
+MAJOR=1
+MINOR=0
+PATCH=0
+VERSION=${MAJOR}.${MINOR}.${PATCH}
+LIB_SO_NAME=lib${LIB_NAME}.so
+LIB_FOLDER=lib
+
+install ${LIB_FOLDER}/${LIB_SO_NAME}.${VERSION} $1/usr/lib/
+
+cd ${LIB_FOLDER}
+ln -s ${LIB_SO_NAME}.${VERSION} $1/usr/lib/${LIB_SO_NAME}.${MAJOR}
+cd - > /dev/null
+

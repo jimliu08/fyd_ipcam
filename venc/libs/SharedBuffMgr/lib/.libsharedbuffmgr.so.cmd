@@ -1,0 +1,1 @@
+cmd_libs/SharedBuffMgr/lib/libsharedbuffmgr.so := rm -f libs/SharedBuffMgr/lib/libsharedbuffmgr.so; ln -s libsharedbuffmgr.so.2.1.0.0 libs/SharedBuffMgr/lib/libsharedbuffmgr.so; (echo libs/SharedBuffMgr/lib/libsharedbuffmgr.so.2.1.0.0;) > .tmp_versions/SharedBuffMgr

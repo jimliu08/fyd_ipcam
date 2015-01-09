@@ -1,0 +1,1 @@
+binlib-y += libdatacrypto.so

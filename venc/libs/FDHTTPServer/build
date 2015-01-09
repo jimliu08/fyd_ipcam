@@ -1,0 +1,47 @@
+#!/bin/bash
+# This script will build libfdhttpserver.so. 
+# It will also copy the header files and the library to the current directory
+# in a VN conventional way, i.e., ./lib and ./src. 
+PATH=/usr/bin:/bin:$PATH
+LIB_NAME=fdhttpserver
+MAJOR=1                                                                                                                                                       
+MINOR=0
+PATCH=0
+VERSION=${MAJOR}.${MINOR}.${PATCH}
+LIB_SO_NAME=lib${LIB_NAME}.so
+LIB_FOLDER=lib
+SRC_FOLDER=src
+TOP_FOLDER=${PWD}
+HOST='arm-linux-'
+CXX=${HOST}g++
+
+# check if you have the proper gcc
+which $CXX > /dev/null || exit 1 
+
+cd ${SRC_FOLDER}
+
+# Build the library.
+make
+
+# Strip and copy the libraries.
+mkdir -p ${TOP_FOLDER}/${LIB_FOLDER}
+${HOST}strip -o ${TOP_FOLDER}/${LIB_FOLDER}/${LIB_SO_NAME}.${VERSION} ${LIB_SO_NAME}.${VERSION}
+
+cd - > /dev/null
+
+# Link library
+cd ${LIB_FOLDER}
+
+if [ -f "${LIB_SO_NAME}.${MAJOR}" ]; then
+	rm -f ${LIB_SO_NAME}.${MAJOR}
+fi
+
+if [ -f "${LIB_SO_NAME}" ]; then
+	rm -f ${LIB_SO_NAME}
+fi
+
+ln -s ${LIB_SO_NAME}.${VERSION} ${LIB_SO_NAME}.${MAJOR}
+ln -s ${LIB_SO_NAME}.${VERSION} ${LIB_SO_NAME}
+
+cd - > /dev/null
+

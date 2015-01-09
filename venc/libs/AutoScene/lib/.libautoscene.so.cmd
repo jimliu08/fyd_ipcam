@@ -1,0 +1,1 @@
+cmd_libs/AutoScene/lib/libautoscene.so := rm -f libs/AutoScene/lib/libautoscene.so; ln -s libautoscene.so.4.0.1.9 libs/AutoScene/lib/libautoscene.so; (echo libs/AutoScene/lib/libautoscene.so.4.0.1.9;) > .tmp_versions/AutoScene

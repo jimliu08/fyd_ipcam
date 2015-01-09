@@ -1,0 +1,1 @@
+cmd_libs/AAC4Enc/lib/libaac4enc.so := rm -f libs/AAC4Enc/lib/libaac4enc.so; ln -s libaac4enc.so.2.1.0.14 libs/AAC4Enc/lib/libaac4enc.so; (echo libs/AAC4Enc/lib/libaac4enc.so.2.1.0.14;) > .tmp_versions/AAC4Enc

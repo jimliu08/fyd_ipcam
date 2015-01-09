@@ -1,0 +1,17 @@
+#!/bin/bash
+# This script will clean libfdhttpserver.so.
+#PATH=/usr/bin:/bin:$PATH
+LIB_FOLDER=lib
+SRC_FOLDER=src
+
+if [ -d "${LIB_FOLDER}" ]; then
+	rm -rf ${LIB_FOLDER}
+fi
+
+cd ${SRC_FOLDER}
+
+# simply make it
+make --quiet clean
+
+cd - > /dev/null
+

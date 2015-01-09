@@ -1,0 +1,1 @@
+cmd_libs/MassMemAccess/lib/libmassmemaccess.so := rm -f libs/MassMemAccess/lib/libmassmemaccess.so; ln -s libmassmemaccess.so.9.1.0.1 libs/MassMemAccess/lib/libmassmemaccess.so; (echo libs/MassMemAccess/lib/libmassmemaccess.so.9.1.0.1;) > .tmp_versions/MassMemAccess

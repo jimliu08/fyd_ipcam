@@ -1,0 +1,1 @@
+cmd_libs/G711Enc/lib/libg711enc.so := rm -f libs/G711Enc/lib/libg711enc.so; ln -s libg711enc.so.1.0.0.11 libs/G711Enc/lib/libg711enc.so; (echo libs/G711Enc/lib/libg711enc.so.1.0.0.11;) > .tmp_versions/G711Enc

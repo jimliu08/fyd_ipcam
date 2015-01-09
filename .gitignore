@@ -1,0 +1,5 @@
+build/
+*.o
+venc/venc
+goolink/goolink
+rf433/rf433

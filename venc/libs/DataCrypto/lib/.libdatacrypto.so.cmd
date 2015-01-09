@@ -1,0 +1,1 @@
+cmd_libs/DataCrypto/lib/libdatacrypto.so := rm -f libs/DataCrypto/lib/libdatacrypto.so; ln -s libdatacrypto.so.2.0.0.8 libs/DataCrypto/lib/libdatacrypto.so; (echo libs/DataCrypto/lib/libdatacrypto.so.2.0.0.8;) > .tmp_versions/DataCrypto

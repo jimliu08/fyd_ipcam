@@ -1,0 +1,1 @@
+cmd_libs/msgreader/lib/libmsgreader.so := rm -f libs/msgreader/lib/libmsgreader.so; ln -s libmsgreader.so.2.2.0.0 libs/msgreader/lib/libmsgreader.so; (echo libs/msgreader/lib/libmsgreader.so.2.2.0.0;) > .tmp_versions/msgreader

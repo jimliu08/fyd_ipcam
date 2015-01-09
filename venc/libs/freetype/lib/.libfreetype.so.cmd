@@ -1,0 +1,1 @@
+cmd_libs/freetype/lib/libfreetype.so := rm -f libs/freetype/lib/libfreetype.so; ln -s libfreetype.so.6.3.20 libs/freetype/lib/libfreetype.so; (echo libs/freetype/lib/libfreetype.so.6.3.20;) > .tmp_versions/freetype

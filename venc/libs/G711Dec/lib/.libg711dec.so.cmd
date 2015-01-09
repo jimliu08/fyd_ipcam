@@ -1,0 +1,1 @@
+cmd_libs/G711Dec/lib/libg711dec.so := rm -f libs/G711Dec/lib/libg711dec.so; ln -s libg711dec.so.1.0.0.11 libs/G711Dec/lib/libg711dec.so; (echo libs/G711Dec/lib/libg711dec.so.1.0.0.11;) > .tmp_versions/G711Dec

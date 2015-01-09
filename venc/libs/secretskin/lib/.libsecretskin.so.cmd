@@ -1,0 +1,1 @@
+cmd_libs/secretskin/lib/libsecretskin.so := rm -f libs/secretskin/lib/libsecretskin.so; ln -s libsecretskin.so.1.0.0.14 libs/secretskin/lib/libsecretskin.so; (echo libs/secretskin/lib/libsecretskin.so.1.0.0.14;) > .tmp_versions/secretskin

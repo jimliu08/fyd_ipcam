@@ -1,0 +1,1 @@
+cmd_libs/bitmaskresizer/lib/libbitmaskresizer.so := rm -f libs/bitmaskresizer/lib/libbitmaskresizer.so; ln -s libbitmaskresizer.so.1.0.0.1 libs/bitmaskresizer/lib/libbitmaskresizer.so; (echo libs/bitmaskresizer/lib/libbitmaskresizer.so.1.0.0.1;) > .tmp_versions/bitmaskresizer

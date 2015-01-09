@@ -1,0 +1,1 @@
+cmd_libs/G726Enc/lib/libg726enc.so := rm -f libs/G726Enc/lib/libg726enc.so; ln -s libg726enc.so.1.0.0.7 libs/G726Enc/lib/libg726enc.so; (echo libs/G726Enc/lib/libg726enc.so.1.0.0.7;) > .tmp_versions/G726Enc

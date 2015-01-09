@@ -1,0 +1,6 @@
+#
+# vim: syntax=make
+
+misc1-y += JPEGSnap.sh \
+
+misc1dest-y = /bin/

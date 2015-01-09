@@ -1,0 +1,1 @@
+cmd_libs/frameratectrl/lib/libframeratectrl.so := rm -f libs/frameratectrl/lib/libframeratectrl.so; ln -s libframeratectrl.so.2.0.0.3 libs/frameratectrl/lib/libframeratectrl.so; (echo libs/frameratectrl/lib/libframeratectrl.so.2.0.0.3;) > .tmp_versions/frameratectrl

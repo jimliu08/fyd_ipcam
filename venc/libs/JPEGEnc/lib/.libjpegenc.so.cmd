@@ -1,0 +1,1 @@
+cmd_libs/JPEGEnc/lib/libjpegenc.so := rm -f libs/JPEGEnc/lib/libjpegenc.so; ln -s libjpegenc.so.4.4.0.3 libs/JPEGEnc/lib/libjpegenc.so; (echo libs/JPEGEnc/lib/libjpegenc.so.4.4.0.3;) > .tmp_versions/JPEGEnc

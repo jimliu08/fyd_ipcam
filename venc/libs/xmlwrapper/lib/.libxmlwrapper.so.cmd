@@ -1,0 +1,1 @@
+cmd_libs/xmlwrapper/lib/libxmlwrapper.so := rm -f libs/xmlwrapper/lib/libxmlwrapper.so; ln -s libxmlwrapper.so.4.0.0.2 libs/xmlwrapper/lib/libxmlwrapper.so; (echo libs/xmlwrapper/lib/libxmlwrapper.so.4.0.0.2;) > .tmp_versions/xmlwrapper

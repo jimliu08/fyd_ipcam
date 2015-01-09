@@ -1,0 +1,1 @@
+cmd_libs/VideoCap/lib/libvideocap.so := rm -f libs/VideoCap/lib/libvideocap.so; ln -s libvideocap.so.13.0.0.3 libs/VideoCap/lib/libvideocap.so; (echo libs/VideoCap/lib/libvideocap.so.13.0.0.3;) > .tmp_versions/VideoCap
